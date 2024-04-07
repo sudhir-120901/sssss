@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>0
+    </head>
+<body>
+    Name<input type="text" id="nm"><br>
+    Gender<select id="g">
+        <option>male</option>
+        <option>female</option>
+    </select>
+<button onclick="abc()">click</button>
+<script>
+    function abc()
+    {
+        var a=document.getElementById("nm").value;
+        var g=document.getElementById("g").value;
+        if(g=="male")
+        {
+        document.write("Mr.",a);
+    }
+    else
+    {
+        document.write("Miss.",a);
+    }
+    }
+</script>
+</body>
+</html>
